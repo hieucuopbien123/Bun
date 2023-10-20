@@ -1,0 +1,15 @@
+-> Bun là công cụ thay thế NodeJS, có tốc độ nhanh hơn NodeJS ít nhất là 3 lần cho mọi loại request. Nhiều tài liệu cho rằng nhanh hơn cả chục lần với các dòng máy khác or đo lường trên nhiều task khác nhau.
+
+URL: https://survey.stackoverflow.co/2023/ => Là khảo sát thống kê thông tin lập trình qua từng năm. Có nhiều số liệu rất hay
+
+URL: https://risingstars.js.org/2022/ => Trang cung thống kê riêng về các tool JS
+
+
+-> Cơ chế Bun nhanh hơn NodeJS:
+Bun không sử dụng V8 làm Javascript Engine như Node mà nó dùng JavascriptCore vốn là Engine của trình duyệt Safari. JavascriptCore được đánh giá là nhanh hơn V8 Engine
+Bun được viết bằng Ziglang mà họ giới thiệu là một ngôn ngữ bậc thấp (low-level) với quản lý bộ nhớ thủ công. Điều này giúp cho chi phí sử dụng tài nguyên thấp.
+Bun triển khai lại hầu hết các thứ như trình biên dịch JSX/TypeScript, npm client, bundler, SQLite client, HTTP client, WebSocket client… Và tất cả đều là cây nhà lá vườn do họ tự tay phát triển theo cách nhanh hơn nodejs.
+
+NodeJS khá cân so với C#. Nhưng nếu so với Bun thì Bun là tốt nhất, phù hợp với cả dự án lớn nếu ta cấu trúc code tốt.
+
+
