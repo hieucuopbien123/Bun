@@ -5,7 +5,7 @@ Bun
 # Basic 
 -> Cài bun trên window qua wsl:
 sudo apt install zip => cần zip để cài bun
-curl -fsSL https://bun.sh/install | bash => Cài bun
+curl -fsSL https://bun.sh/install | bash => cài bun
 => Làm theo hướng dẫn trên terminal
 bun -v
 
@@ -14,21 +14,10 @@ rm -rf ~/.bun => xóa bun
 bun init => khởi tạo dự án mới mặc định là ts. Ta có thể khởi tạo dự án js bằng cách tạo 1 file index.js từ trước trong folder rồi chạy lệnh sẽ sinh dự án js
 bun index.ts => chạy như nodejs
 
--> Dùng bun:
-bun hỗ trợ sẵn watch k cần nodemon
+-> Elysia thay thế express của nodejs
 
 
 
-# Dùng Elysia
-Framework của bun thay thế express của nodejs
-
-Chạy: bun create elysia myapp
-
-
-
-# Other:
--> Tool test benchmark request mới rất mạnh cho máy multicore: https://github.com/wg/wrk
-=> Cách tải nhanh nhất là hỏi GPT4
-Cũng có tool khác là oha test rất mạnh
+# Other
 
 

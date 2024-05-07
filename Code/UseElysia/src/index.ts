@@ -4,9 +4,7 @@ const headers = {
   'x-powered-by': 'benchmark',
   'content-type': 'application/json',
   connection: 'keep-alive',
-  'keep-alive': 'timeout=5'
-  // Để connection được duy trì timeout 5s, tránh request liên tục thì đóng mở liên tục
-  // Khi set thế này cho request, nó cũng fix cứng header, tránh các trường này tự động thay đổi tùy vào request
+  'keep-alive': 'timeout=5'// Duy trì connection browser timeout 5s, tránh request liên tục thì đóng mở liên tục
 }
 
 // http://localhost:3000/benchmark/testing?id=10
